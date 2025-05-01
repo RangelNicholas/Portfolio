@@ -1,0 +1,65 @@
+---
+title: "Florida Rain Trends"
+subtitle: "How climate change is affecting rainfall rates in Florida over time"
+author: "Nicholas Rangel"
+institute: "American University"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: ["default", "custom.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+
+---
+## Overview & Motivation
+
+- **Motivation:**
+  Being from Florida, I've heard people mention that climate change has brought increasingly intense and frequent storms overtime. In this study, my goal is to show that climate change is increasing rainfall amounts in Florida, by looking at data from Miami, Naples, Pensacola, and Orlando.
+  
+- **Central Findings:**
+  - Total annual rainfall has in fact *increased* overall, signifying a gradual change in climate patterns in Florida.
+  - Average temperature has only *slightly increased*, but this is enough to alter climate patterns.
+```{r, echo=FALSE, out.width='55%', fig.align='center'}
+knitr::include_graphics("C:/Users/nicho/Downloads/flpic1.jpg")
+```
+---
+## Data
+
+- **Data Source:**
+  The data I collected came from the Florida Climate Center database, where I selected cities I wanted to investigate.
+- **Observations:**
+  For each city that I chose, there were around 27,000 observations, which I cleaned and grouped to create a more coherent analysis.
+- **Variables:**
+  To show that rainfall amounts have been increasing in Florida, I only needed the total amount of rainfall for each year with data stretching back to the 1900s. I also thought it would be useful to include average yearly temperatures in the graph, which also sees an upward trend.
+- **Relevance:**
+  I thought these variables would be a good way to show how climate change is affecting the climate in Florida, with upward trends being seen in both annual total rainfall and annual average temperature.
+  
+```{r, echo=FALSE, out.width='70%', fig.align='center'}
+knitr::include_graphics("C:/Users/nicho/Downloads/Miamidata.png")
+```
+
+---
+## Analysis 1
+
+- **Data Wrangling:**
+  For each city, I first grouped the daily values by year, taking the sum of the *precipitation* values and the mean of the *temperature* values, giving me only two values per year. Then I merged all the clean data for each city into one data set to create my graphs.
+- **Visualization:**
+  Instead of putting all cities in one graph, I chose to make separate graphs for each to better visualize the increase in rainfall, as each city has different rainfall amount averages. I also chose to implement the average temperature on the graphs without creating a new scale for the second variable, eliminating confusion with having two scales, and still being able to notice the change.
+  
+```{r, echo=FALSE, out.extra='class="fullbleed"'}
+knitr::include_graphics(c("C:/Users/nicho/Downloads/graphsppt.png"))
+```
+---
+## Analysis 2
+
+- **Empirical Relationship:**
+  I then ran a regression analysis for each of the cities, looking at the relationship between average temperature and rainfall totals. This ultimately allowed me to see the overall effect of temperature on rainfall, and the differences in this relationship between the four cities.
+- **Findings:**
+  The results indicate that among the four cities, only Miami exhibits a clear positive relationship between average yearly temperature and total annual rainfall. In Naples, Pensacola, and Orlando, the relationship appears to be weak as the evidence was not statistically significant. This indicates that there may be other factors affecting rainfall rates in Florida. 
+```{r, echo=FALSE, out.width='55%', fig.align='center'}
+knitr::include_graphics("C:/Users/nicho/Downloads/fulltable.png")
+```
