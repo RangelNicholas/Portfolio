@@ -1,0 +1,36 @@
+body, .remark-slide-content {
+  font-family: "Times New Roman", Times, serif !important;
+}
+
+.remark-slide-content {
+  background-color: #E0EEEE !important; 
+  color: #333; 
+}
+
+.remark-slide-content h1,
+.remark-slide-content h2,
+.remark-slide-content h3,
+.remark-slide-content h4 {
+  color: #2F4F4F !important;
+}
+.title-slide h1 {
+  text-shadow: 2px 2px 5px rgba(0, 90, 255, 0.5);
+}
+.title-slide h2 {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+.no-bg-color .remark-slide-content {
+  background-color: transparent !important;
+}
+.remark-slide-content {
+  max-width: none !important;
+  overflow: visible !important;
+}
+.fullbleed {
+  width: 100% !important;
+  height: 100%;
+  position: center;
+  left: -9%;
+  right: -9%;
+}
+
