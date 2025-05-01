@@ -3,7 +3,7 @@
 This repository contains some examples of my best, polished code chunks, along with a slide deck built in R using `xaringan` and a codebook done in R Markdown. My research topic focuses on climate data, where extreme winter weather events in Europe were analyzed in the codebook, and trends in Florida rainfall amounts were examined in the slide deck. The code chunk below serves as an example of the skills I have gathered during my Data Analysis course. 
 
 # Exemplary Code Chunk: 
-This exemplary code chunk demonstrates the process of loading data using a CSV file and manipulating it using "dplyr" with commands like filter, mutate, group by, and summarize. In addition, I used the "ggplot2" package to create a graph, visualizing the data being worked with. 
+This exemplary code chunk demonstrates the process of loading data using a CSV file and manipulating it using `dplyr` with commands like filter, mutate, group by, and summarize. In addition, I used the `ggplot2` package to create a graph, visualizing the data being worked with. 
 
 [Download the data file](Naples_Rain.csv)
 
@@ -23,7 +23,7 @@ Data is in descending order, starting from the country with the most meteorologi
 Data Source: EM-DAT, CRED / UCLouvain, 2025, Brussels, Belgium.
 
 # Slide Deck: 
-This slide deck was created using R Markdown and the xaringan presentation framework. It explores long-term trends in precipitation and temperature in Naples, Florida, using cleaned climate data and visualized through ggplot2. The presentation highlights key patterns and includes regression-based trendlines to support insights into how local weather patterns have evolved over time.
+This slide deck was created using R Markdown and the `xaringan` presentation framework. It explores long-term trends in precipitation and temperature in Naples, Florida, using cleaned climate data and visualized through `ggplot2`. The presentation highlights key patterns and includes regression-based trendlines to support insights into how local weather patterns have evolved over time.
 
 Data Source: https://climatecenter.fsu.edu/climate-data-access-tools/downloadable-data
 
