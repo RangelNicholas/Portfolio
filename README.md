@@ -1,6 +1,6 @@
 # Portfolio
 
-This repository contains some examples of my best, polished code chunks, along with a slide deck built in R using xaringan and a codebook done in R Markdown. My research topic focuses on climate data, where extreme winter weather events in Europe were analyzed in the codebook, and trends in Florida rainfall amounts were examined in the slide deck. The code chunk below serves as an example of the skills I have gathered during my Data Analysis course. 
+This repository contains some examples of my best, polished code chunks, along with a slide deck built in R using `xaringan` and a codebook done in R Markdown. My research topic focuses on climate data, where extreme winter weather events in Europe were analyzed in the codebook, and trends in Florida rainfall amounts were examined in the slide deck. The code chunk below serves as an example of the skills I have gathered during my Data Analysis course. 
 
 # Exemplary Code Chunk: 
 This exemplary code chunk demonstrates the process of loading data using a CSV file and manipulating it using "dplyr" with commands like filter, mutate, group by, and summarize. In addition, I used the "ggplot2" package to create a graph, visualizing the data being worked with. 
