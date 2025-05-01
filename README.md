@@ -3,7 +3,7 @@
 This repository contains some examples of my best, polished code chunks, along with a slide deck built in R using xaringan and a codebook done in R Markdown. My research topic focuses on climate data, where extreme winter weather events in Europe were analyzed in the codebook, and trends in Florida rainfall amounts were looked at in the slide deck. The code chunk below serves as an example of the skills I have gathered during my Data Analysis course. 
 
 # Data Source and Code: 
-[Download the data file](Naples_Rain.csv)
+[Download the data file](Naples Rain.csv)
 https://climatecenter.fsu.edu/climate-data-access-tools/downloadable-data
 
 Naples <- Naples %>%
